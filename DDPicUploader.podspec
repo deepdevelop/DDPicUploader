@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DDPicUploader"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "DDPicUploader is a simple client upload image to picpx.com."
 
   s.description  = <<-DESC
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/deepdevelop/DDPicUploader.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/deepdevelop/DDPicUploader.git", :tag => "1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
