@@ -17,9 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "DDPicUploader"
   s.version      = "1.0"
-  s.summary      = "DDPicUploader is a simple client upload image to picpx.com. Written in Objective-c."
+  s.summary      = "DDPicUploader is a simple client upload image to picpx.com."
 
   s.description  = <<-DESC
+                   DDPicUploader is a simple client upload image to picpx.com. Written in Objective-c.
                    DESC
 
   s.homepage     = "https://github.com/deepdevelop/DDPicUploader"
@@ -50,7 +51,6 @@ Pod::Spec.new do |s|
   s.author             = { "Liu Yi" => "61upup@gmail.com" }
   # Or just: s.author    = "Liu Yi"
   # s.authors            = { "Liu Yi" => "61upup@gmail.com" }
-  s.social_media_url   = "http://twitter.com/liuyi0922"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
