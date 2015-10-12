@@ -103,14 +103,14 @@ static NSString * const kImageBaseURL = @"http://deeppic.b0.upaiyun.com";
     NSDictionary *params = @{@"policy": policy, @"signature": signature};
     
     [_upyunManager POST:@"deeppic"
-             parameters:params constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+             parameters:params constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
                  [formData appendPartWithFileData:data name:@"file" fileName:imageName mimeType:@"image/png"];
-             } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+             } success:^(NSURLSessionDataTask *task, id responseObject) {
                  NSDictionary *result = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:nil];
                  if (completion) {
                      completion(nil, result);
                  }
-             } failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error) {
+             } failure:^(NSURLSessionDataTask *task, NSError *error) {
                  if (completion) {
                      completion(error, nil);
                  }
