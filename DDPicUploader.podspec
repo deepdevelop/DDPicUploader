@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DDPicUploader"
-  s.version      = "1.1"
+  s.version      = "1.1.1"
   s.summary      = "DDPicUploader is a simple client upload image to picpx.com."
 
   s.description  = <<-DESC
