@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34C439D3817F291D80BFDE8C /* libPods-DDPicUploaderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A27ABE0382AD1AC5465BA3 /* libPods-DDPicUploaderDemo.a */; };
+		68E430D61BCB3FE90054C124 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E430D51BCB3FE90054C124 /* main.m */; };
+		68E430D91BCB3FE90054C124 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E430D81BCB3FE90054C124 /* AppDelegate.m */; };
+		68E430DC1BCB3FE90054C124 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E430DB1BCB3FE90054C124 /* ViewController.m */; };
+		68E430DF1BCB3FE90054C124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E430DD1BCB3FE90054C124 /* Main.storyboard */; };
+		68E430E11BCB3FE90054C124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E430E01BCB3FE90054C124 /* Assets.xcassets */; };
+		68E430E41BCB3FE90054C124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E430E21BCB3FE90054C124 /* LaunchScreen.storyboard */; };
+		68E430EF1BCB3FE90054C124 /* DDPicUploaderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E430EE1BCB3FE90054C124 /* DDPicUploaderDemoTests.m */; };
+		68E430FC1BCB40130054C124 /* DDPicClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E430FB1BCB40130054C124 /* DDPicClient.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68E430EB1BCB3FE90054C124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E430C91BCB3FE90054C124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E430D01BCB3FE90054C124;
+			remoteInfo = DDPicUploaderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AB8BD85198FD0D370294D1B /* Pods-DDPicUploaderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPicUploaderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDPicUploaderDemo/Pods-DDPicUploaderDemo.release.xcconfig"; sourceTree = "<group>"; };
+		20AFBA335F3900B863CF4411 /* Pods-DDPicUploaderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDPicUploaderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDPicUploaderDemo/Pods-DDPicUploaderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		45A27ABE0382AD1AC5465BA3 /* libPods-DDPicUploaderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDPicUploaderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E430D11BCB3FE90054C124 /* DDPicUploaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDPicUploaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E430D51BCB3FE90054C124 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68E430D71BCB3FE90054C124 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68E430D81BCB3FE90054C124 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68E430DA1BCB3FE90054C124 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68E430DB1BCB3FE90054C124 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68E430DE1BCB3FE90054C124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68E430E01BCB3FE90054C124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68E430E31BCB3FE90054C124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68E430E51BCB3FE90054C124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E430EA1BCB3FE90054C124 /* DDPicUploaderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDPicUploaderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E430EE1BCB3FE90054C124 /* DDPicUploaderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDPicUploaderDemoTests.m; sourceTree = "<group>"; };
+		68E430F01BCB3FE90054C124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E430FA1BCB40130054C124 /* DDPicClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPicClient.h; sourceTree = "<group>"; };
+		68E430FB1BCB40130054C124 /* DDPicClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPicClient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E430CE1BCB3FE90054C124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C439D3817F291D80BFDE8C /* libPods-DDPicUploaderDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E430E71BCB3FE90054C124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C99100A8BC28926073DC606 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20AFBA335F3900B863CF4411 /* Pods-DDPicUploaderDemo.debug.xcconfig */,
+				0AB8BD85198FD0D370294D1B /* Pods-DDPicUploaderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68E430C81BCB3FE90054C124 = {
+			isa = PBXGroup;
+			children = (
+				68E430F91BCB40130054C124 /* DDPicClient */,
+				68E430D31BCB3FE90054C124 /* DDPicUploaderDemo */,
+				68E430ED1BCB3FE90054C124 /* DDPicUploaderDemoTests */,
+				68E430D21BCB3FE90054C124 /* Products */,
+				3C99100A8BC28926073DC606 /* Pods */,
+				9E5EA3165E01C1B553E29FC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68E430D21BCB3FE90054C124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E430D11BCB3FE90054C124 /* DDPicUploaderDemo.app */,
+				68E430EA1BCB3FE90054C124 /* DDPicUploaderDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E430D31BCB3FE90054C124 /* DDPicUploaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				68E430D71BCB3FE90054C124 /* AppDelegate.h */,
+				68E430D81BCB3FE90054C124 /* AppDelegate.m */,
+				68E430DA1BCB3FE90054C124 /* ViewController.h */,
+				68E430DB1BCB3FE90054C124 /* ViewController.m */,
+				68E430DD1BCB3FE90054C124 /* Main.storyboard */,
+				68E430E01BCB3FE90054C124 /* Assets.xcassets */,
+				68E430E21BCB3FE90054C124 /* LaunchScreen.storyboard */,
+				68E430E51BCB3FE90054C124 /* Info.plist */,
+				68E430D41BCB3FE90054C124 /* Supporting Files */,
+			);
+			path = DDPicUploaderDemo;
+			sourceTree = "<group>";
+		};
+		68E430D41BCB3FE90054C124 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E430D51BCB3FE90054C124 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68E430ED1BCB3FE90054C124 /* DDPicUploaderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				68E430EE1BCB3FE90054C124 /* DDPicUploaderDemoTests.m */,
+				68E430F01BCB3FE90054C124 /* Info.plist */,
+			);
+			path = DDPicUploaderDemoTests;
+			sourceTree = "<group>";
+		};
+		68E430F91BCB40130054C124 /* DDPicClient */ = {
+			isa = PBXGroup;
+			children = (
+				68E430FA1BCB40130054C124 /* DDPicClient.h */,
+				68E430FB1BCB40130054C124 /* DDPicClient.m */,
+			);
+			path = DDPicClient;
+			sourceTree = "<group>";
+		};
+		9E5EA3165E01C1B553E29FC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45A27ABE0382AD1AC5465BA3 /* libPods-DDPicUploaderDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E430D01BCB3FE90054C124 /* DDPicUploaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E430F31BCB3FE90054C124 /* Build configuration list for PBXNativeTarget "DDPicUploaderDemo" */;
+			buildPhases = (
+				EC529F05E68C5DD74077E74B /* Check Pods Manifest.lock */,
+				68E430CD1BCB3FE90054C124 /* Sources */,
+				68E430CE1BCB3FE90054C124 /* Frameworks */,
+				68E430CF1BCB3FE90054C124 /* Resources */,
+				8279B91F60C8C6CD12B4FF9E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDPicUploaderDemo;
+			productName = DDPicUploaderDemo;
+			productReference = 68E430D11BCB3FE90054C124 /* DDPicUploaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68E430E91BCB3FE90054C124 /* DDPicUploaderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E430F61BCB3FE90054C124 /* Build configuration list for PBXNativeTarget "DDPicUploaderDemoTests" */;
+			buildPhases = (
+				68E430E61BCB3FE90054C124 /* Sources */,
+				68E430E71BCB3FE90054C124 /* Frameworks */,
+				68E430E81BCB3FE90054C124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E430EC1BCB3FE90054C124 /* PBXTargetDependency */,
+			);
+			name = DDPicUploaderDemoTests;
+			productName = DDPicUploaderDemoTests;
+			productReference = 68E430EA1BCB3FE90054C124 /* DDPicUploaderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E430C91BCB3FE90054C124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DeepDevelop;
+				TargetAttributes = {
+					68E430D01BCB3FE90054C124 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					68E430E91BCB3FE90054C124 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 68E430D01BCB3FE90054C124;
+					};
+				};
+			};
+			buildConfigurationList = 68E430CC1BCB3FE90054C124 /* Build configuration list for PBXProject "DDPicUploaderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E430C81BCB3FE90054C124;
+			productRefGroup = 68E430D21BCB3FE90054C124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E430D01BCB3FE90054C124 /* DDPicUploaderDemo */,
+				68E430E91BCB3FE90054C124 /* DDPicUploaderDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E430CF1BCB3FE90054C124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E430E41BCB3FE90054C124 /* LaunchScreen.storyboard in Resources */,
+				68E430E11BCB3FE90054C124 /* Assets.xcassets in Resources */,
+				68E430DF1BCB3FE90054C124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E430E81BCB3FE90054C124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8279B91F60C8C6CD12B4FF9E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDPicUploaderDemo/Pods-DDPicUploaderDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC529F05E68C5DD74077E74B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E430CD1BCB3FE90054C124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E430DC1BCB3FE90054C124 /* ViewController.m in Sources */,
+				68E430D91BCB3FE90054C124 /* AppDelegate.m in Sources */,
+				68E430D61BCB3FE90054C124 /* main.m in Sources */,
+				68E430FC1BCB40130054C124 /* DDPicClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E430E61BCB3FE90054C124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E430EF1BCB3FE90054C124 /* DDPicUploaderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68E430EC1BCB3FE90054C124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E430D01BCB3FE90054C124 /* DDPicUploaderDemo */;
+			targetProxy = 68E430EB1BCB3FE90054C124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68E430DD1BCB3FE90054C124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E430DE1BCB3FE90054C124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68E430E21BCB3FE90054C124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E430E31BCB3FE90054C124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68E430F11BCB3FE90054C124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68E430F21BCB3FE90054C124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68E430F41BCB3FE90054C124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AFBA335F3900B863CF4411 /* Pods-DDPicUploaderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DDPicUploaderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdevelop.DDPicUploaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68E430F51BCB3FE90054C124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB8BD85198FD0D370294D1B /* Pods-DDPicUploaderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DDPicUploaderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdevelop.DDPicUploaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68E430F71BCB3FE90054C124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DDPicUploaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdevelop.DDPicUploaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDPicUploaderDemo.app/DDPicUploaderDemo";
+			};
+			name = Debug;
+		};
+		68E430F81BCB3FE90054C124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DDPicUploaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdevelop.DDPicUploaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDPicUploaderDemo.app/DDPicUploaderDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E430CC1BCB3FE90054C124 /* Build configuration list for PBXProject "DDPicUploaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E430F11BCB3FE90054C124 /* Debug */,
+				68E430F21BCB3FE90054C124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E430F31BCB3FE90054C124 /* Build configuration list for PBXNativeTarget "DDPicUploaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E430F41BCB3FE90054C124 /* Debug */,
+				68E430F51BCB3FE90054C124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E430F61BCB3FE90054C124 /* Build configuration list for PBXNativeTarget "DDPicUploaderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E430F71BCB3FE90054C124 /* Debug */,
+				68E430F81BCB3FE90054C124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68E430C91BCB3FE90054C124 /* Project object */;
+}
