@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.summary      = "DDPicUploader is a simple client upload image to picpx.com. Written in Objective-c."
 
   s.description  = <<-DESC
-                   DDPicUploader is a simple client upload image to picpx.com. Written in Objective-c.
                    DESC
 
   s.homepage     = "https://github.com/deepdevelop/DDPicUploader"
